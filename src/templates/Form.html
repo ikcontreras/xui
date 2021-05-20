@@ -1,0 +1,36 @@
+<template>
+    <div class="wrapper">
+        <div class="container">
+            <label>Nombre:</label>
+            <input type="text"/>
+            <label>Apellido:</label>
+            <input type="text"/>
+            <label>Fecha de nacimiento:</label>
+            <input type="date"/>
+            <label>Sexo:</label>
+            <select>
+                <option>Indefinido</option>
+                <option>Femenino</option>
+                <option>Masculino</option>
+            </select>
+            <label>Altura:</label>
+            <script>document.write("Eso es una prueba")</script>
+            <input type="number"/>
+            <label>Crear character:</label>
+            <button>Crear Personaje</button>
+        </div>
+    </div>
+</template>
+
+<style>
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: column;
+    }
+</style>
